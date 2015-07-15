@@ -1,0 +1,7 @@
+<%= hidden_field_tag :pre_url, "" %>
+<%= text_field_tag :url, "", placeholder: "EMBED_URL" %>
+<%= text_field_tag :embed_url, "", placeholder: "EMBED_SOURCE_URL" %>
+<div id="video-preview" class= "none">
+  <%= image_tag "load/loading.gif", class: "none loading" %>
+  <iframe width="560" height="315" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/pjqXMqHzIZs"></iframe>
+</div>
