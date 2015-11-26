@@ -1,5 +1,6 @@
 class MainsController < ApplicationController
   def index
+    @cards = []
   end
 
   def show

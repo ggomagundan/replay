@@ -5,3 +5,13 @@
   <%= image_tag "load/loading.gif", class: "none loading" %>
   <iframe width="560" height="315" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/pjqXMqHzIZs"></iframe>
 </div>
+
+<ul>
+  <% @card.each do |card| %>
+    <li>
+      <div  class="card">
+        <iframe width="560" height="315" frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/pjqXMqHzIZs"></iframe>
+      </div>
+    </li>
+  <% end %>
+</ul>
