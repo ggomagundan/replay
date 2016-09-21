@@ -15,3 +15,13 @@
 /log/*
 !/log/.keep
 /tmp
+/public/uploads
+/public/assets
+
+.DS_Store
+*.DS_Store
+*/.DS_Store
+/config/deploy/production.rb
+/config/database.yml
+config/database.yml
+.env
